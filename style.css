@@ -10,9 +10,10 @@ header .wrapper{
    
 }
 
-nav{
-   display:grid;
-   
+ul{
+   list-style: none;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
 }
 
 .wrapper{
@@ -38,12 +39,77 @@ h1{
    text-align: center;
    align-self: center;
    text-shadow: 3px 3px 3px black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 40px;
 }
 
 #about-me .wrapper{
-   display: grid;
+   display: flex;
    grid-template-columns: repeat(2, 1fr);
    align-items: center;
+}
 
+
+#services .wrapper {
+   background-color:lightgray;
+   text-align: left;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+padding: 2em;
+   gap: 40px;  
+}
+
+ #services article{
+ background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+
+
+  margin: 0;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+
+
+ #services h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+
+
+.wrapper a:link,
+.wrapper a:visited {
+  display:inline-block;
+  padding: .8em 1em;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #000;
+  border-radius: 4px;
+
+margin:auto;
+}
+
+.wrapper a:hover,
+.wrapper a:focus{
+   background-color: #fafafa47;
+   color: #000;
+   margin: auto;  
+}
+
+
+
+
+
+footer{
+   background-color: #000;
+   color: #fff;
+   text-align: center;
 }
 
