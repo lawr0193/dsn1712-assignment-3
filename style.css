@@ -1,0 +1,49 @@
+header {
+   background-color: #000;
+   color:#fff;  
+}
+  
+header .wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+
+nav{
+   display:grid;
+   
+}
+
+.wrapper{
+max-width: 940px;
+margin: 0 auto;
+justify-content: center;
+}
+
+#hero{
+   height: 600px;
+background-image:url(../images/hands-typing.jpg);
+   background-position: center center;
+   background-size: cover;
+   display: flex;
+   filter: grayscale(70%);
+}
+
+h1{
+   max-width: 60%;
+   color: #fff;
+   background-color:rgba(0, 0, 0, 50%);
+   margin: auto;
+   text-align: center;
+   align-self: center;
+   text-shadow: 3px 3px 3px black;
+}
+
+#about-me .wrapper{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+
+}
+
